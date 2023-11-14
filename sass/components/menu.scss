@@ -39,7 +39,7 @@
     border-radius: 20px;
     box-shadow: 0px 8px 7px 1px black;
 
-    animation: appear 2s ease-in backwards;
+    animation: show 2s ease-in backwards;
 
     &:hover > .menu__bloc--effect{
       transform: translateX(0px);
@@ -96,7 +96,7 @@
     display: flex;
     align-items: flex-end;
     font-weight: bold;
-    width: 50px;
+    width: 65px;
     transition-duration: 1s;
 
   }
