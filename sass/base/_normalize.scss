@@ -1,0 +1,32 @@
+/****** General ***********/
+* {
+    font-family: 'Shrikhand', 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --Primaire: #9356DC;
+    --Secondaire: #FF79DA;
+    --Tertiaire: #99E2D0;
+}
+
+.iconz {
+    padding: 15px;
+}
+
+.resto {
+    background: #f6f6f6 ;
+    padding: 15px;
+}
+
+.fas {
+    padding: 20px;
+}
+h1 , h4 {
+    padding: 0;
+    margin: 0;
+}

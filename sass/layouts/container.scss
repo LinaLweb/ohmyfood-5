@@ -1,0 +1,19 @@
+@media only all and (max-width: 768px){
+    $grey-very-light:  rgb(242, 241, 241);
+    
+    .container{
+        background-color: $grey-very-light;
+        padding-bottom: 20px;
+        width: 100%;
+    .container__title{
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .container__paragraphe{
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    }
+}
