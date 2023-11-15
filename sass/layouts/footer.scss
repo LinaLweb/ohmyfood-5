@@ -3,7 +3,7 @@
   padding: 22px 25px 35px 25px;
 
   &__title {
-    color: white;
+    color: $white;
     margin-bottom: 15px;
 
   }
@@ -14,15 +14,15 @@
     gap: 5px;
 
     &--maintext {
-      color: white;
+      color: $white;
+      font-family: 'Roboto', sans-serif;
        i {
          padding: 0;
        }
     }
 
     &--litletext {
-      color: white;
-
+      color: $white;
     }
 
   }
@@ -57,7 +57,7 @@
     padding: 52px 100px 43px 25px;
 
     &__title {
-
+     color: $white
     }
 
     &__nav{
