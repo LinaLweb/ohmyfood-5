@@ -1,11 +1,8 @@
-    $grey-very-light: rgb(242, 241, 241);
-    $light-green: rgb(153, 226, 207);
-    $dark-green: rgb(0, 135, 102);
 
-    .restaurants-container{
+   .restaurants-container{
         display: flex;
         flex-direction: column;
-        background-color: $grey-very-light;
+        background-color: $light-grey;
         width: 100%;
 
     .restaurants-container__title{
@@ -54,7 +51,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        background-color: $grey-very-light;
+        background-color: $light-grey;
         width: 100%;
     }
 
