@@ -15,7 +15,7 @@
     font-weight: lighter;
   }
   &__line{
-    border-bottom:  solid 5px $minth;
+    border-bottom:  solid 5px $green;
     width: 30px;
     padding-top: 15px;
     &--text{
@@ -67,7 +67,7 @@
 
     &--effect{
       position: absolute;
-      background-color: $minth;
+      background-color: $green;
       top: 0;
       bottom: 0;
       right: 0;
