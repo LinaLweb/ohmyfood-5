@@ -1,5 +1,7 @@
 .fonctionnement-container {
-
+  &__title1 {
+     padding: 15px;
+  }
   &__filtres {
     display: flex;
     justify-content: space-around;
