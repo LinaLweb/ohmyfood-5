@@ -321,7 +321,7 @@ h1, h4 {
 .restaurants-container .restaurants-cards__text {
   width: 100%;
   background-color: white;
-  border-radius: 0px, 20px;
+  border-radius: 0px 20px;
   padding: 0 15px 15px 15px;
   justify-content: space-between;
   margin: 0px;
@@ -363,7 +363,7 @@ h1, h4 {
 .restaurants-cards__text {
   width: 22%;
   background-color: white;
-  border-radius: 0px, 20px;
+  border-radius: 0px 20px;
   padding: 0 15px 15px 15px;
   margin: 0px;
 }
