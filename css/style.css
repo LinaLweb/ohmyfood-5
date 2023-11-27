@@ -118,13 +118,6 @@ h1, h4 {
   margin: auto;
 }
 
-.restaurants-button:hover {
-  box-shadow: 0px 8px 7px 1px black;
-  transform: scale(1.1);
-  background: rgb(153, 226, 207);
-  filter: brightness(110%);
-}
-
 .menu-btn-commander {
   margin-top: 50px;
 }
@@ -271,6 +264,8 @@ h1, h4 {
   position: relative;
   height: 80px;
   width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu__heart--icone {
   position: absolute;
@@ -321,7 +316,7 @@ h1, h4 {
 .restaurants-container .restaurants-cards__text {
   width: 100%;
   background-color: white;
-  border-radius: 0px 20px;
+  border-radius: 0px, 20px;
   padding: 0 15px 15px 15px;
   justify-content: space-between;
   margin: 0px;
@@ -363,7 +358,7 @@ h1, h4 {
 .restaurants-cards__text {
   width: 22%;
   background-color: white;
-  border-radius: 0px 20px;
+  border-radius: 0px, 20px;
   padding: 0 15px 15px 15px;
   margin: 0px;
 }
@@ -425,7 +420,7 @@ h1, h4 {
   }
 }
 .menu-container {
-  width: 600px;
+  max-width: 1050px;
   margin: auto;
 }
 
@@ -455,13 +450,17 @@ h1, h4 {
 .menu__line {
   border-bottom: solid 4px #99E2D0;
   width: 38px;
-  padding-top: 15px;
 }
 .menu__line--text {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 4px;
+}
+.menu__area {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .menu__bloc {
   display: flex;
@@ -475,6 +474,8 @@ h1, h4 {
   border-radius: 20px;
   box-shadow: 0px 8px 7px 1px black;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   animation: show 2s ease-in backwards;
 }
 .menu__bloc:hover > .menu__bloc--effect {
