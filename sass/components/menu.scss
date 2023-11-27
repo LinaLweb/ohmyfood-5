@@ -1,6 +1,6 @@
 .menu-container{
   max-width: 1050px;
-  margin: auto;
+  margin:auto;
 }
 
 .menu{
@@ -39,14 +39,15 @@
       font-size: 15px;
       margin-bottom: 4px;
     }
+
   }
 
-   &__area {
+  &__area {
     width: 600px;
     margin-right: auto;
     margin-left: auto;
   }
-  
+
   &__bloc{
     display: flex;
     justify-content: space-between;
@@ -59,6 +60,8 @@
     border-radius: 20px;
     box-shadow: 0px 8px 7px 1px black;
     max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     
 
     animation: show 2s ease-in backwards;
