@@ -1,0 +1,65 @@
+.fonctionnement-container {
+  &__title1 {
+     padding: 15px;
+  }
+  &__filtres {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+}
+
+.filtre-resto {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 70px;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-text {
+    color: black;
+    font-weight: 700;
+  }
+
+  &-blocNum {
+    position: relative;
+    margin-left: -15px;
+    height: 27px;
+    width: 27px;
+    border-radius: 28px;
+    background-color: $purple;
+  }
+
+  &-num {
+    color: white;
+    margin: 4px 0 0 9px;
+  }
+
+  .fas.fa-store.iconz {
+    color: $purple;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .fonctionnement-container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__title1 {
+      margin-left: -30px;
+    }
+
+  }
+
+
+}
